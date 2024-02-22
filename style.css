@@ -2,160 +2,189 @@
 桌機----------------------------------------------------------------------
 */
 /*main-----------------------------------*/
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
     box-sizing: border-box;
 }
-li{
+
+li {
     list-style: none;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: gray;
 }
-h3{
+
+h3 {
     font-family: 'Raleway', sans-serif;
 }
+
 p a {
     color: rgb(159, 159, 241);
 }
+
 /*header---------------------------------*/
-header{
+header {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
 }
-header h1 img{
+
+header h1 img {
     width: 80%;
     height: auto;
 }
-header ul{
 
-}
-header li{
+header ul {}
+
+header li {
     float: left;
     padding-right: 15px;
 }
-header a{
 
-}
-header a:hover{
+header a {}
 
-}
+header a:hover {}
+
 /*section--------------------------------*/
-section{
+section {
     background-image: url(./images/banner.jpg);
     background-size: 100%;
-    height: 750px; 
+    height: 600px;
     background-repeat: no-repeat;
 }
-section .word{
+
+section .word {
     padding: 8% 8%;
     width: auto;
 }
-section .word h2{
-    font-family: "banner"; /*字體不對*/
+
+section .word h2 {
+    font-family: "banner";
     font-size: 500%;
     color: white;
     width: 400px;
     padding-bottom: 10px;
 }
+
 @font-face {
     font-family: "banner";
     src: url(ChunkFive-Regular.otf);
 }
-section .word p{
+
+section .word p {
     color: white;
     font-size: 1.2em;
 }
-section .word ul{
+
+section .word ul {
     padding-top: 50px;
     padding-left: 70px;
 }
-section .word a{
+
+section .word a {
     display: block;
     height: 40px;
     line-height: 40px;
     font-size: 1em;
 }
-section li{
+
+section li {
     float: left;
 }
-section .l1{
-    
-}
-section .l1 a{
+
+section .l1 {}
+
+section .l1 a {
     background-color: white;
     width: 160%;
     text-indent: 1em;
 }
+
 section .l2 {
     padding-left: 5%;
 }
-section .l2 a{
+
+section .l2 a {
     width: 150%;
     text-align: center;
     color: white;
     background-color: black;
 }
+
 /*nav--------------------------------*/
-nav{
+nav {
     color: white;
     padding: 50px;
     display: flex;
     justify-content: center;
 }
-nav .box{
+
+nav .box {
     float: left;
     padding: 30px 50px;
 }
-nav .box h1{
+
+nav .box h1 {
     font-size: 3em;
 }
-nav .box h3{
+
+nav .box h3 {
     padding: 10px 0;
     font-size: 1.5em;
 }
-nav .box p{
+
+nav .box p {
     padding-bottom: 5px;
 }
-nav .box img{
+
+nav .box img {
     padding: 10px 0;
 }
-nav .b1{
+
+nav .b1 {
     background-color: rgb(255, 115, 0);
 }
+
 nav .b2 {
     background-color: red;
 }
+
 nav .b3 {
     background-color: black;
 }
+
 nav .b4 {
     background-color: gray;
 }
+
 /*.top--------------------------------*/
-.top{
+.top {
     background-color: rgb(196, 196, 196);
     text-align: center;
     padding: 80px;
 }
-.top h2{
+
+.top h2 {
     color: rgb(255, 115, 0);
     font-size: 3em;
     padding-bottom: 10px;
 }
-.top p{
+
+.top p {
     color: black;
     padding-bottom: 5px;
 }
-.top h3{
+
+.top h3 {
     padding-top: 20px;
 }
-.top h3 a{
+
+.top h3 a {
     margin: auto;
     text-decoration: none;
     display: block;
@@ -163,56 +192,64 @@ nav .b4 {
     width: 150px;
     height: 40px;
     line-height: 40px;
-    background-image: linear-gradient(to left,rgb(255, 51, 0) 0%, rgb(255, 115, 0) 100%);
+    background-image: linear-gradient(to left, rgb(255, 51, 0) 0%, rgb(255, 115, 0) 100%);
     color: white;
     font-size: 0.7em;
 }
+
 /*.middle--------------------------------*/
-.middle{
+.middle {
     text-align: center;
     display: grid;
     grid-template-columns: 500px 500px 500px;
     padding: 100px;
     place-content: center;
-    
+
 }
-.middle .gbox{
+
+.middle .gbox {
     background-color: rgb(233, 232, 232);
 }
-.middle .g1{
+
+.middle .g1 {
     padding-top: 100px;
 }
-.middle .gbox img{
 
+.middle .gbox img {}
 
-}
-.middle .gbox h2{
+.middle .gbox h2 {
     padding-bottom: 10px;
 }
-.middle .gbox p{
+
+.middle .gbox p {
     padding-bottom: 5px;
 }
-.middle .gbox h3{
+
+.middle .gbox h3 {
     margin-top: 15px;
     font-weight: lighter;
 }
-.middle .gbox a{
+
+.middle .gbox a {
     text-decoration: none;
     color: black;
     padding: 2px;
     border-bottom: 1px black solid;
 }
-.middle .gg{
+
+.middle .gg {
     padding-top: 180px;
 }
+
 /*.buttom--------------------------------*/
-.buttom{
+.buttom {
     background-image: url(./images/handbg.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
-.buttom .aboxt{
+
+.buttom .aboxt {
     width: 100%;
     padding-top: 22%;
     display: flex;
@@ -220,7 +257,8 @@ nav .b4 {
     height: 10%;
 
 }
-.buttom .abox{
+
+.buttom .abox {
     margin: 0 50px;
     padding: 20px;
     width: 300px;
@@ -229,16 +267,20 @@ nav .b4 {
     border: 1px gray solid;
     background-color: white;
 }
-.buttom .abox img{
+
+.buttom .abox img {
     padding-bottom: 10px;
 }
-.buttom .abox h2{
+
+.buttom .abox h2 {
     padding-bottom: 20px;
 }
-.buttom p{
-    font-family: 'Laila', serif; /*字體錯*/
+
+.buttom p {
+    font-family: 'Laila', serif;
 }
-.buttom h4{
+
+.buttom h4 {
     text-align: center;
     padding-top: 5%;
     padding-bottom: 1%;
@@ -246,19 +288,22 @@ nav .b4 {
     font-weight: lighter;
 
 }
+
 /*footer--------------------------------*/
-footer{
+footer {
     background-color: rgb(68, 68, 68);
     color: white;
     text-align: center;
     padding: 30px;
 }
-footer h5{
+
+footer h5 {
     font-weight: normal;
     text-align: center;
     padding-bottom: 20px;
 }
-footer p{
+
+footer p {
     font-size: 0.5em;
 }
 
@@ -266,48 +311,60 @@ footer p{
 平板----------------------------------------------------------------------
 */
 @media screen and (max-width:1200px) and (min-width:769px) {
+
     /*section--------------------------------*/
-    section{
+    section {
         height: auto;
     }
+
     section .word {
         padding: 8% 8%;
         width: auto;
     }
+
     section .word ul {
         padding-top: 30px;
         padding-left: 30px;
     }
+
     section .word h2 {
         font-size: 300%;
         width: 220px;
         padding-bottom: 10px;
-        }
+    }
+
     section .word p {
         font-size: 0.8em;
     }
+
     section .word a {
         height: 30px;
         line-height: 30px;
         font-size: 0.8em;
     }
+
     section .l1 a {
         width: 130%;
     }
+
     section .l2 {
         padding-left: 3%;
     }
+
     section .l2 a {
         width: 130%;
     }
+
     /*nav--------------------------------*/
     nav {
         flex-wrap: wrap;
     }
+
     nav .box {
         width: 400px;
 
     }
+
     /*.middle--------------------------------*/
     .middle {
         width: 700px;
@@ -315,19 +372,22 @@ footer p{
         margin: auto;
         grid-template-columns: 350px 350px;
     }
-   
-    .p1 img{
+
+    .p1 img {
         width: 350px;
         vertical-align: bottom;
     }
+
     .middle .g1 {
         padding-top: 50px;
         width: 350px;
     }
-    .middle .g1 img{
+
+    .middle .g1 img {
         width: 30%;
         padding-bottom: 10px;
     }
+
     .middle .gbox h2 {
         padding-bottom: 10px;
         font-size: 1em;
@@ -342,21 +402,26 @@ footer p{
         margin-top: 5px;
         font-size: 1em;
     }
+
     .middle .gbox a {
         padding: 0;
     }
+
     .middle .gg {
         padding-top: 120px;
     }
+
     /*buttom--------------------------------*/
     .buttom {
         background-size: auto 100%;
     }
+
     .buttom .aboxt {
         width: 100%;
         padding-top: 5%;
         flex-wrap: wrap;
     }
+
     .buttom .abox {
         margin: 2% 12%;
         padding: 0;
@@ -366,18 +431,22 @@ footer p{
         justify-content: center;
         align-items: center;
     }
-    .buttom .w{
+
+    .buttom .w {
         padding-left: 30px;
         text-align: left;
     }
+
     .buttom .abox img {
         padding-bottom: 0;
         width: 100px;
         height: 100px;
     }
+
     .buttom .abox h2 {
         padding-bottom: 10px;
     }
+
     .buttom h4 {
         padding-top: 0px;
     }
@@ -388,9 +457,10 @@ footer p{
 */
 @media screen and (max-width:768px) {
     header {
-            justify-content: center;
-            flex-wrap: wrap;
-        }
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     /*section--------------------------------*/
     section {
         background-size: auto 400px;
@@ -435,6 +505,7 @@ footer p{
     section .l2 a {
         width: 130%;
     }
+
     /*nav--------------------------------*/
     nav {
         flex-wrap: wrap;
@@ -445,6 +516,7 @@ footer p{
         width: 400px;
 
     }
+
     /*.middle--------------------------------*/
     .middle {
         width: 400px;
@@ -491,6 +563,7 @@ footer p{
     .middle .gg {
         padding-top: 150px;
     }
+
     /*buttom--------------------------------*/
     .buttom {
         background-size: auto 100%;
