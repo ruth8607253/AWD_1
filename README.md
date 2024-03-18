@@ -1,6 +1,6 @@
 # RWD_1
 
-![圖1](./readme_image/img1.png)
+![圖1](./images/readme_image/img1.png)
 
 [網頁連結]()
 
@@ -14,12 +14,12 @@ CSS：以桌機優先，再規劃平板、手機介面。
 
 ### 桌機畫面展示
 
-![圖1](./readme_image/img1.png)
+![圖1](./images/readme_image/img1.png)
 
 ### 平板畫面展示
 
-![圖2](./readme_image/img2.png)
+![圖2](./images/readme_image/img2.png)
 
 ### 手機畫面展示
 
-![圖3](./readme_image/img3.png)
+![圖3](./images/readme_image/img3.png)
