@@ -1,6 +1,6 @@
 # RWD_1
 
-![圖1](./images/readme_image/img1.png)
+![圖1](./readme_image/img1.png)
 
 [網頁連結]()
 
@@ -8,18 +8,18 @@
 
 規劃斷點：768 / 1200 / 1200以上
 
-CSS：以桌機優先，再規劃平板、手機介面。
+CSS：以桌機(1200以上)優先，再寫平板(768 ~ 1200)與手機(768以下)的效果。
 
-## 畫面展示
+## 畫面展示 - 1200以上
 
 ### 桌機畫面展示
 
-![圖1](./images/readme_image/img1.png)
+![圖1](./readme_image/img1.png)
 
-### 平板畫面展示
+### 平板畫面展示 - 768 ~ 1200
 
-![圖2](./images/readme_image/img2.png)
+![圖2](./readme_image/img2.png)
 
-### 手機畫面展示
+### 手機畫面展示 -768以下
 
-![圖3](./images/readme_image/img3.png)
+![圖3](./readme_image/img3.png)
